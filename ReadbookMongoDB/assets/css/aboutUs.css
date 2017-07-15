@@ -1,0 +1,292 @@
+    ::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+}
+::-webkit-scrollbar{
+  width: 8px;
+  background-color: #F5F5F5;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background-color:  #286090;
+  
+  background-image: -webkit-gradient(linear, 0 0, 0 100%,
+                     color-stop(.5,  #c9302c;),
+             color-stop(.5, transparent), to(transparent));
+  border-radius: 20px;
+}
+html, body{
+   width: 100%;height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-y:auto;
+  overflow-x: hidden;
+}
+nav{
+  width: 100%;
+}
+.navbar-inner {
+    background:transparent;
+}
+.navbar-inverse{
+  width: 100%;
+  height: 175px;
+   background: url(../images/bbb.jpg) ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.menuLink, .navbar-brand{
+  color: white !important
+}
+.menuLink{font-size: 1.25em;}
+.navbar-brand{font-size: 2em;}
+.menuLink:hover, .navbar-brand:hover{
+  color:purple !important
+}
+.jumbotron{
+  background-color: transparent;
+  margin-top: 5%;
+  text-align: center;
+}
+.jumbotron p{
+  padding-top: 5%;
+}
+#myModal, #myModalSignup{
+  color: black;
+}
+
+p{
+  font-size: 1.5em;
+  font-family: cursive;
+}
+#store{
+  width: 100%;
+}
+#person{
+  width:32%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+#lastRow{
+  padding-top: 3%;
+}
+#left{
+  border-right: 2px solid purple;
+  padding-right: 2%;
+  padding-left: 8%;
+  min-height: 500px;
+}
+#right{
+padding-left: 1.5%;
+padding-right: 1.5%;
+
+}
+.col-lg-12{
+  padding-left: 0px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 9%;
+    font-family: cursive;
+}
+#sentence{
+     font-size: 1.5em;
+    font-family: cursive;
+    padding: 3%;
+    text-align: center;
+}
+#aboutRow{
+  padding-bottom: 2%;
+}
+
+@media screen and (max-width:767px) {
+.navbar-inverse{
+  width: 100%;
+  height: 455px;
+   background: url("../images/bbb.jpg") ;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+}
+
+/*blog1*/
+#blogIcon{
+  width: 100%;
+}
+.list-group {
+  font-size: 1.5em;
+  font-family: cursive;
+  margin-top: 25%;
+}
+/*profile*/
+#uploadPhotoButton, #editProfileButton{
+margin-top: 2%;
+font-family: cursive;
+float: right;
+}
+.btn{
+ font-family: cursive;
+}
+.profile {
+ width:60%;
+ float:right;
+ color: #286090;
+ font-family: cursive;
+ font-weight: 700;
+ font-size: 1.2em;
+}
+label{
+  font-family: cursive;
+  font-size: 1.3em;
+}
+/*#form2{
+  display: none;
+}*/
+#editForm{
+  margin-top: 5%;
+  float: right;
+}
+/*@media screen and (max-width:1199px) {
+#profPhot{
+  margin-top: 24%;
+}
+}*/
+/*contact us*/
+.contactIcons{
+  width: 50px;
+  height: 50px; 
+}
+#contactGroup1{
+  font-size: 1.5em;
+  font-family: cursive;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#contactTextArea{
+    padding-left: 2%;
+    margin-left: 2%;
+    width: 98%;
+}
+#contactButton{
+  float: right;
+}
+#map{
+  height: 350px !important;
+}
+/*blog*/
+#blogList{
+font-size: 1.5em;
+font-family: cursive;
+text-align: center;
+}
+#blog{
+width: 100%;
+height: 240px;
+}
+#blogBlock{
+  border: 2px solid purple;
+}
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:15%;
+    left: 0;
+    color:#286090;
+    font-weight: 700;
+    display: none;
+}
+a.darken {
+    display: inline-block;
+    background: black;
+    padding: 0;
+}
+a.darken img {
+    display: block;
+}
+/*books*/
+#book{
+    width: 270px !important;
+    height: 350px !important;
+}
+/*book1*/
+.info1 label, .info1 p{
+  display: inline;
+}
+#addBookInCart{
+  float: right;
+}
+/*cart*/
+.table>tbody>tr>td, .table>tfoot>tr>td{vertical-align: middle;}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+    width:20%;
+    display: inline !important;
+  }  
+  table#cart thead { display: none; }
+  table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+  table#cart tbody tr td:first-child { background: #333; color: #fff; }
+  table#cart tbody td:before {
+    content: attr(data-th); font-weight: bold;
+    display: inline-block; width: 8rem;
+  }
+  table#cart tfoot td{display:block; }
+  table#cart tfoot td .btn{display:block;}
+}
+#td{padding-left: 6%;}
+#t40{width: 40%;}
+#t15{width: 15%;}
+
+table{font-family: cursive;}
+#blog:hover{
+  border-radius: 150px;
+}
+.rotate {
+  -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;  
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    overflow: hidden;
+}
+.rotateIcon:hover .rotate {
+  -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+
+.containerL, .containerS{
+      margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+}
+@media screen and (min-width:1050px) {
+.containerL, .containerS {
+    margin-left: 35%;
+    margin-right: 37%;
+    margin-top: 0%;
+    }
+  }
+
+#pl{
+  margin-top: 2%;
+}
+#loginButonProfile, #signButtonProfile{
+  width: 100% !important;
+  margin-bottom:6% !important;
+}
+
